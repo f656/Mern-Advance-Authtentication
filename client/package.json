@@ -11,10 +11,6 @@
   },
   "dependencies": {
     "axios": "^1.10.0",
-<<<<<<< HEAD
-=======
-    "backend": "file:..",
->>>>>>> 7c3ae78 (changing for the project and build production)
     "framer-motion": "^12.19.4",
     "lucide-react": "^0.525.0",
     "react": "^19.1.0",
