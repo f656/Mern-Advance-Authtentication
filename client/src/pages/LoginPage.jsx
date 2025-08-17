@@ -2,7 +2,7 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { Loader, Lock, Mail } from "lucide-react";
-import Input from "../components/input";
+import Input from "../components/Input"; // ✅ Fixed import (PascalCase)
 import { Link } from "react-router-dom";
 import { useAuthStore } from "../store/authStore";
 
@@ -60,7 +60,7 @@ const LoginPage = () => {
 						type='submit'
 						disabled={isLoading}
 					>
-						{isLoading ? <Loader className='w-6 h-6 animate-spin  mx-auto' /> : "Login"}
+						{isLoading ? <Loader className='w-6 h-6 animate-spin mx-auto' /> : "Login"}
 					</motion.button>
 				</form>
 			</div>
@@ -75,4 +75,5 @@ const LoginPage = () => {
 		</motion.div>
 	);
 };
+
 export default LoginPage;
